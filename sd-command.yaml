@@ -1,0 +1,9 @@
+namespace: yukaneda            # コマンドのnamespace
+name: echo                                    # コマンド名
+version: '1'                               # コマンドのバージョン
+description: create command test                # コマンドの説明
+maintainer: y.kaneda.1009@gmail.com # コマンドの管理者
+format: binary                               # コマンドのフォーマット（今回はbinary固定）
+ 
+binary:
+  file: ./echo.sh                             # 登録するコマンドのsd-command.yamlから見たPATH
