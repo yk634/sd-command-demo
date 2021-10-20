@@ -1,5 +1,5 @@
 shared:
-  image: cd.docker-registry.corp.yahoo.co.jp:4443/centos/centos7-build-base:latest
+  image: centos:centos7
  
 jobs:
   validate:
